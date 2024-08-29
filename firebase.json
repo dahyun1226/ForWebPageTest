@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "composeApp/src/wasmJsMain/resources",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "composeApp/src/wasmJsMain/resources/index.html"
+      }
+    ]
+  }
+}
